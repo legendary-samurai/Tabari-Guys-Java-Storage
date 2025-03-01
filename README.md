@@ -6,11 +6,11 @@ We are classmates and developers from different fields, coming together to explo
 
 
 ## 🌟 Highlights
-  -- 🚀 Java is Powerful & Beautiful – We believe Java is not just a language, but a force to be reckoned with!
-  -- 👨‍💻 Not Complete Beginners – While two of us are new to Java, our friend nerdUser has some experience.
-  -- 📚 Structured Learning – We're following the Java 17 Masterclass course to master Java step by step.
-  -- 😂 Challenges & Fun – We expect plenty of bugs, brain-melting moments, and some late-night debugging marathons!
-  -- 🎯 Ultimate Goal – Finish the course without dropping out, because in our rulebook, “Whoever quits is gay” (no offense, just our inside joke! 😆).
+  - 🚀 Java is Powerful & Beautiful : We believe Java is not just a language, but a force to be reckoned with!
+  - 👨‍💻 Not Complete Beginners : While two of us are new to Java, our friend nerdUser has some experience.
+  - 📚 Structured Learning : We're following the Java 17 Masterclass course to master Java step by step.
+  - 😂 Challenges & Fun : We expect plenty of bugs, brain-melting moments, and some late-night debugging marathons!
+  - 🎯 Ultimate Goal : Finish the course without dropping out, because in our rulebook, “Whoever quits is gay” (no offense, just our inside joke! 😆).
 
 
 ### 📌 Overview
