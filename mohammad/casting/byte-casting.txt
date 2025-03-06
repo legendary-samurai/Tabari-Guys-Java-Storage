@@ -1,0 +1,17 @@
+Java default data type is int, so when we wanna do simple math operations on data types smaller than integer. we should pay attention to two thing
+
+first
+    byte minByte = Short.MIN_VALUE;
+    byte newByte = (minByte / 2);
+
+in the second expression compiler doesn't guess what result being returned, so java compiler set data type of return value to int. that doesn't fit on short because of its size(4 bytes).
+
+second
+    byte newByte = (-128 / 2);
+    
+
+in this expresstion compiler can guess what result being returned and when we use only literal values. it can set to data type that we declare.
+
++++++++++ NOTE ++++++++++
+    Always use integer.
++++++++++ ---- ++++++++++
