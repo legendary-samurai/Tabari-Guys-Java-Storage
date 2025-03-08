@@ -11,7 +11,7 @@ public class CharBoolString {
 
 
                 // Boolean
-                // use prefix [is | has] when want to declarate a boolean variable for readblity. 
+                // use prefix [is | has] when want to declarative a boolean variable for readability.
                 boolean myTrueBoolean = true;
                 boolean myFalseBoolean = false;
                 boolean isOpen = true;
@@ -24,7 +24,7 @@ public class CharBoolString {
                 // String
                 // When String plus something, that expression will change to String and does append to that string.
                 // Strings are immutable. This means you can't change one of its character.
-                // If you'll want to change a String, you should decelrate a StringBuilder. because StringBuilder is mutable and you can change it.
+                // If you'll want to change a String, you should decelerate a StringBuilder. because StringBuilder is mutable and you can change it.
 
                 int numberOfCow = 10;
                 String cow = "Cow " + numberOfCow;
