@@ -33,31 +33,53 @@
 public class MainChallengeTwo {
 
     public static void main(String[] args) {
-        System.out.println(getDurationString(4500));
+        showResult(getDurationString(3700));
+        showResult(getDurationString(65 , 45));
     }
 
+
+    // sec to hour
     public static String getDurationString(int seconds){
-        int hourCount = 0;
-        int minCount = 0;
-        int secCount = 0;
+            int minutes ;
         // check if the seconds parameter is more then or equal 0
         if (seconds >= 0){
-            // calc to hour
-            
+            minutes = seconds / 60;
 
+        return getDurationString(minutes , seconds);
         // else return an error
-        }else {
+        }else if(seconds < 0){
             return "Error : the seconds must be more then or equal 0";
+        }else{
+            return "Error : the parameters is invalid";
         }
-
-        return (00 + "h" + " " + 00 + "m" + " "  + 00 + "s");
     }
 
+
+    // min and sec
     public static String getDurationString(int minutes , int seconds){
-        return (00 + "h" + " " + 00 + "m" + " "  + 00 + "s");
+        int hours , remainingMinutes , remainingSec ;
+
+        if(minutes >= 0 && (seconds >=0 && seconds <= 59)){
+            hours = seconds / 60;
+            remainingMinutes = minutes % 60;
+            remainingSec = seconds % 60;
+
+        // else return an error
+        }else if(seconds < 0){
+            return "Error : the seconds must be more then or equal 0";
+        }else{
+            return "Error : the parameters is invalid";
+        }
+        return (hours + "h" + " " + remainingMinutes + "m" + " "  + remainingSec + "s");
     }
 
     public static void showResult(int result){
+        System.out.println(result);
+    }
+    public static void showResult(String result){
+        System.out.println(result);
+    }
+    public static void showResult(double result){
         System.out.println(result);
     }
     public static void showResult(int resultOne , int resultTwo){
